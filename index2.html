@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Responsive website</title>
+	
+	<style>
+		body{
+							padding:50px 0;
+							background-color: grey;
+}
+
+		div.thirds{
+					padding-bottom:10px;
+
+}
+
+		div.one-third{
+						width:30%;
+						float:left;
+						margin-right: 3%;
+
+					}
+
+		div.one-third-last{
+							margin: 0;
+
+}
+
+		img{
+				max-width: 100%;
+				height:auto;
+				margin: 0 0 10px 0;
+}
+
+		div.one-third{
+						width:30%;
+						padding: 1%;
+					
+}
+
+		div.one-third-second{
+								margin: 0;
+								}
+/* 
+		div.one-third-last{
+								clear:both;
+								float:none;
+								width:30%;
+								
+		} */
+
+
+  @media screen and (max-width:500px)
+  {
+  	div.mobile-collapse
+  	{
+  		width:auto;
+  		float:none;
+  		margin-right: 0;
+  	}
+  }
+
+
+	</style>
+	
+
+	</head>
+<body>
+	<div class="body-content">
+		   	<div class="thirds ">
+		  		<div class="one-third mobile-collapse">
+		  			<img src="image1.jpg" alt="image1">
+		  		
+		  		<h2>Section one</h2>
+		  		<p>A paragraph (from the Ancient Greek παράγραφος paragraphos, "to write beside" or "written beside") is a self-contained unit of a discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences.[1][2] Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.</p>
+		  		</div>
+
+		  		<div class="one-third one-third-second mobile-collapse">
+		  			
+                   <img src="image2.jpg" alt="image2">
+                     <h2>Section two</h2>
+		  		<p>A paragraph (from the Ancient Greek παράγραφος paragraphos, "to write beside" or "written beside") is a self-contained unit of a discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences.[1][2] Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.</p>
+
+		  		</div>
+
+                 <div class="one-third one-third-last mobile-collapse">
+                 	
+                 	<img src="image3.jpg" alt="image3">
+                 	<h2>Section three</h2>
+		  		<p>A paragraph (from the Ancient Greek παράγραφος paragraphos, "to write beside" or "written beside") is a self-contained unit of a discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences.[1][2] Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.</p>
+                
+		  	</div>
+		  </div>
+	</div>
+</body>
+</html>
